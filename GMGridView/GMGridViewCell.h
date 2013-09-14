@@ -40,4 +40,7 @@
 /// Override to release custom data before cell is reused.
 - (void)prepareForReuse;
 
+// KAM 12/Aug/2013 Expose editing so delegate callbacks can turn it on/off
+- (void)setEditing:(BOOL)editing;
+
 @end

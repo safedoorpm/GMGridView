@@ -246,6 +246,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/GMGridView;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -259,6 +260,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/GMGridView;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

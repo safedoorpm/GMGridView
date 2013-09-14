@@ -111,6 +111,9 @@ typedef enum
 // Force the grid to update properties in an (probably) animated way.
 - (void)layoutSubviewsWithAnimation:(GMGridViewItemAnimation)animation;
 
+// KAM 13/08/2013 - need cell view for start point of animated zoom effect
+- (GMGridViewCell *)cellForItemAtIndex:(NSInteger)position;
+
 @end
 
 
